@@ -12,6 +12,7 @@ header h1 {
 header .logo-title .logo-buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 header .logo-title {
