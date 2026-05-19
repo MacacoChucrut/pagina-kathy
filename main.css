@@ -1,0 +1,15 @@
+header {
+  background: #223;
+  display: flex;
+  position: sticky;
+  font-family: sans-seriff;
+  align-items: center;
+}
+
+header .logo-title {
+  text-align: left;
+}
+
+header .logo-buttons {
+  text-align: right;
+}
