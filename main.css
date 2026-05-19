@@ -3,13 +3,15 @@ header {
   display: flex;
   position: sticky;
   font-family: sans-seriff;
-  align-items: center;
+  color: #fff;
 }
 
 header .logo-title {
+  align-items: center;
   text-align: left;
 }
 
 header .logo-buttons {
+  align-items: center;
   text-align: right;
 }
