@@ -1,7 +1,7 @@
 header {
   background: #223;
   display: flex;
-  position: sticky;
+  position: block;
   top: 0;
   left: 0;
   border-bottom: #336;
@@ -18,7 +18,9 @@ header h1 {
 }
 
 header .logo-title {
+  text-align: left;
 }
 
 header .logo-buttons {
+  text-align: right;
 }
