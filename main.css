@@ -4,10 +4,13 @@ header {
   position: sticky;
 }
 
-header h1 .logo-title .logo-buttons {
-  display: flex;
-  font-family: sans-seriff;
+header h1 {
   color: #fff;
+  font-family: sans-serif;
+}
+
+header .logo-title .logo-buttons {
+  display: flex;
   align-items: center;
 }
 
