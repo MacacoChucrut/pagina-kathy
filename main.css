@@ -6,7 +6,7 @@ header {
 
 header h1 {
   display: flex;
-  font-family: sans-seriff";
+  font-family: sans-seriff;
   color: #fff;
   align-items: center;
 }
@@ -16,6 +16,5 @@ header .logo-title {
 }
 
 header .logo-buttons {
-  justify-content: center;
   text-align: right;
 }
