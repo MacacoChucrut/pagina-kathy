@@ -2,6 +2,9 @@ header {
   background: #223;
   display: flex;
   position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: #336;
 }
 
 header h1 {
@@ -9,16 +12,13 @@ header h1 {
   font-family: sans-serif;
 }
 
-header .logo-title .logo-buttons {
+.logo-title .logo-buttons {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 header .logo-title {
-  text-align: left;
 }
 
 header .logo-buttons {
-  text-align: right;
 }
