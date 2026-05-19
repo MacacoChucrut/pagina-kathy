@@ -2,7 +2,10 @@ header {
   background: #223;
   display: flex;
   position: sticky;
-  font-family: sans-seriff;
+}
+
+header h1 {
+  font-family: "sans-seriff";
   color: #fff;
 }
 
