@@ -7,11 +7,10 @@ header {
 }
 
 header .logo-title {
-  align-items: center;
   text-align: left;
 }
 
 header .logo-buttons {
-  align-items: center;
+  justify-content: center;
   text-align: right;
 }
