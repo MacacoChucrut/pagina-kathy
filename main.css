@@ -1,10 +1,10 @@
 header {
   background: #223;
   display: flex;
-  position: block;
+  position: sticky;
+  width: 100%;
   top: 0;
-  left: 0;
-  border-bottom: #336;
+  border-bottom: 3px solid #336;
 }
 
 header h1 {
