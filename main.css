@@ -4,7 +4,7 @@ header {
   position: sticky;
 }
 
-header h1 {
+header h1 .logo-title .logo-buttons {
   display: flex;
   font-family: sans-seriff;
   color: #fff;
