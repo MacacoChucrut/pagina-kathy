@@ -7,13 +7,12 @@ header {
   border-bottom: 4px solid #336;
 }
 
-h1 {
+header h1 {
   color: #fff;
   font-family: sans-serif;
-}
-
-.logo-title .logo-buttons {
+  display: flex;
   align-items: center;
+}
 
 .logo-buttons {
   text-align: right;
