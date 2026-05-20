@@ -1,22 +1,21 @@
 header {
   background: #223;
   display: flex;
-  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
-  border-bottom: 3px solid #336;
+  border-bottom: 4px solid #336;
 }
 
-header h1 {
+h1 {
   color: #fff;
   font-family: sans-serif;
 }
 
-h1 .logo-title .logo-buttons {
+.logo-title .logo-buttons {
   display: flex;
   align-items: center;
 
-header .logo-buttons {
+.logo-buttons {
   text-align: right;
 }
