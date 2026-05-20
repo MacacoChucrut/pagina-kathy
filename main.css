@@ -17,6 +17,6 @@ h1 .logo-title .logo-buttons {
   display: flex;
   align-items: center;
 
-header h1 .logo-buttons {
+header .logo-buttons {
   text-align: right;
 }
