@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <head>
-  <title>kathy kine</title>
-  <link rel="stylesheet" href="main.css"/>
+    <title>kine</title>
+    <link rel="icon" href="./assets/logo.jpg">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
   <header>
-    <div class="logo-title">
-      <h1>LOGO</h1>
-    </div>
+        <a href="#home"><img src="./assets/logo.jpg">
+          <div class="header-logo">
+            <h1>ola titulo aqi</h1>
+          </div></a>
 
-    <div class="logo-buttons">
-      <h1>INICIO</h1>
-      <h1>NUESTRO EQUIPO</h1>
-      <h1>SERVICIOS</h1>
-      <h1>CONVENIOS</h1>
-      <h1>BLOG</h1></h1>
-      <h1>CONTACTO</h1>
-      <h1>GALERIA</h1>
+    <div class="header-buttons">
+        <a href="#inicio" draggable="false"><h1>INICIO</h1></a>
+        <a href="#nuestro-equipo" draggable="false"><h1>NUESTRO EQUIPO</h1></a>
+        <a href="#servicios" draggable="false"><h1>SERVICIOS</h1></a>
+        <a href="#convenios" draggable="false"><h1>CONVENIOS</h1></a>
+        <a href="#blog" draggable="false"><h1>BLOG</h1></a>
+        <a href="#contacto" draggable="false"><h1>CONTACTO</h1></a>
+        <a href="#galeria" draggable="false"><h1>GALERÍA</h1></a>
     </div>
   </header>
+  
+  <main id="content"></main>
+  
+  <script type="module" src="./render.js"></script>
+
 </body>
+</html>
