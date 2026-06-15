@@ -10,13 +10,13 @@ header {
   top: 0;
   left: 0;
   height: 5rem;
-  box-shadow: 0 0 1rem #000;
+  box-shadow: 0 0 12px #000;
   z-index: 1;
 }
 
 header h1 {
-    font-size: 1.6rem;
-    text-shadow: 0 1px 6px #000;
+    font-size: 1.3rem;
+    text-shadow: 0 1px 5px #000;
     color: #fff;
     display: flex;
     align-items: center;
@@ -57,9 +57,4 @@ header img {
 
 main {
     padding-top: 5rem;
-}
-
-h2 {
-    text-align: center;
-    font-size: 3rem;
 }
