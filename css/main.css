@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background: linear-gradient(90deg, #37f, #26d);
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5rem;
+  box-shadow: 0 0 1rem #000;
+  z-index: 1;
+}
+
+header h1 {
+    font-size: 1.6rem;
+    text-shadow: 0 1px 6px #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+header a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    user-select: none;
+}
+
+header img {
+    height: 3rem;
+    margin-left: 2rem;
+    box-shadow: 2px 2px 5px #000;
+}
+
+.header-logo h1 {
+    margin-left: 1rem;
+}
+
+.header-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-buttons a:hover{
+    transition: 0.1s ease;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.header-buttons a:not(:hover) {
+    transition: 0.3s ease;
+}
+
+main {
+    padding-top: 5rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
