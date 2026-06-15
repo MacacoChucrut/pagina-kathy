@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background: linear-gradient(90deg, #37f, #26d);
+  background: linear-gradient(90deg, #37f, #59f);
   width: 100%;
   display: flex;
   position: fixed;
