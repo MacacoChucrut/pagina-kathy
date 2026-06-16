@@ -1,7 +1,6 @@
 import { renderInicio } from "./pages/inicio.js";
 import { renderNosotros } from "./pages/nosotros.js";
 import { renderServicios } from "./pages/servicios.js";
-import { renderConvenios } from "./pages/convenios.js";
 import { renderContacto } from "./pages/contacto.js";
 import { renderGaleria } from "./pages/galeria.js";
 
@@ -20,18 +19,15 @@ function router() {
     } else if (route === "#servicios") {
         renderServicios(content);
 
-    } else if (route === "#convenios") {
-        renderConvenios(content);
-
-   } else if (route === "#contacto") {
+    } else if (route === "#contacto") {
         renderContacto(content);
 
-   } else if (route === "#galeria") {
+    } else if (route === "#galeria") {
         renderGaleria(content);
 
-   } else {
+    } else {
         renderInicio(content);
-   }
+    }
 }
 
 window.addEventListener("hashchange", router);
