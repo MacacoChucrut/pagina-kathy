@@ -1,5 +1,5 @@
 import { renderInicio } from "./pages/inicio.js";
-import { renderNuestroEquipo } from "./pages/nuestro_equipo.js";
+import { renderNuestroEquipo } from "./pages/nosotros.js";
 import { renderServicios } from "./pages/servicios.js";
 import { renderConvenios } from "./pages/convenios.js";
 import { renderBlog } from "./pages/blog.js";
@@ -15,7 +15,7 @@ function router() {
         renderInicio(content);
     }
   
-    } else if (route === "#nuestro-equipo") {
+    } else if (route === "#nosotros") {
         renderNuestroEquipo(content);
 
     } else if (route === "#servicios") {
